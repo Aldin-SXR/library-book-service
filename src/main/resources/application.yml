@@ -1,0 +1,15 @@
+configuration:
+  swagger:
+    app: 'Library System - Book Service'
+    description: 'A simple library system built with Spring Boot'
+    developer: 'Aldin Kovačević'
+    email: 'aldin.kovacevic@ibu.edu.ba'
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: book
+  application:
+    name: book-microservice
